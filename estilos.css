@@ -1,0 +1,141 @@
+@font-face{
+	font-family: "Titulo";
+	src: url(../font/Lexend/static/Lexend-ExtraBold.ttf);
+}
+
+@font-face{
+	font-family: "subtitulo";
+	src: url(../font/Lexend/static/Lexend-Bold.ttf);
+}
+
+@font-face{
+	font-family: "boton";
+	src: url(../font/Lexend/static/Lexend-ExtraLight.ttf);
+}
+
+@font-face{
+	font-family: "Titulo";
+	src: url(../font/Lexend/static/Lexend-Light.ttf);
+}
+
+main{
+	background-image: url("../img/fondo1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+section{
+	margin: 50px auto;
+	text-align: center;
+}
+
+section h2{
+	font-family: "subtitulo", sans-serif;
+	text-align: center;
+}
+
+article{
+	float: left;
+	width: 40%;
+	height: 500px;
+	margin-left: 50px;
+	align-content: center;
+	text-align: center;
+}
+
+article img{
+	width: 100%;
+}
+
+article h1{
+	font-family: "titulo", sans-serif;
+	font-size: 4rem;
+}
+
+article h2{
+	font-family: "subtitulo", sans-serif;
+}
+
+.limpiar{
+	clear: both;
+}
+
+section div article{
+	float: left;
+	width: 20%;
+	height: 400px;
+	margin-left: 10%;
+	position: relative;
+	border: solid 10px #fff;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	background-color: #fff;
+}
+
+section div article img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: brown;
+	z-index: 1;
+	border-top-right-radius: 50px;
+}
+
+section div article div{
+	position: absolute;
+	z-index: 2;
+	padding: 40px 20px;
+}
+
+section div article div h3{
+	font-family: "subtitulo", sans-serif;
+}
+
+section div article div p,
+article p{
+	font-family: "parrafo", sans-serif;
+}
+
+.alinea article,
+.alinea article h2{
+	text-align: left;
+	padding-left: 50px;
+}
+
+.alinea article img{
+	width: 80%;
+	border: solid 10px #fff;
+	border-top-right-radius: 200px;
+	background-color: #fff;
+}
+
+.imagen article img{
+	width: 60%;
+	border: solid 10px #fff;
+	border-top-right-radius: 200px;
+	background-color: #fff;
+}
+
+section article div{
+	float: left;
+	margin-left: 50px;
+	text-align: left;
+}
+
+input{
+	font-family: "boton", sans-serif;
+	border: none;
+	padding: 10px 20px;
+	margin-left: 10px;
+	border-radius: 25px;
+}
+
+input:hover{
+	background-color: hotpink;
+}
+
+section input{
+	margin-top: 40px;
+}
+
